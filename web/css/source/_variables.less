@@ -1,0 +1,72 @@
+// /**
+//  * Copyright © Àngel Díaz, Inc. All rights reserved.
+//  * See COPYING.txt for license details.
+//  */
+
+//
+//  Luma theme variables
+//  _____________________________________________
+@color-optimus-brown: #5a504c;
+@color-optimus-orange: #f60;
+@color-optimus-orange-dark: #cc5200;
+@color-optimus-header: #f7f5f2;
+@color-optimus-copyright: #3e3735;
+
+@theme__color__primary: @color-optimus-orange;
+@theme__color__primary-alt: @color-optimus-orange-dark;
+@theme__color__secondary: @color-orange-red1;
+
+@primary__color: @color-gray20;
+@primary__color__dark: darken(@primary__color, 35%); // #000
+@primary__color__darker: darken(@primary__color, 13.5%); // #111
+@primary__color__lighter: lighten(@primary__color, 29%); // #7d7d7d
+@primary__color__light: lighten(@primary__color, 45%); // #a6a6a6
+
+@secondary__color: @color-gray91;
+@secondary__color__light: lighten(@secondary__color, 5%);
+
+@active__color: @theme__color__secondary;
+@error__color: @color-red10;
+
+
+@panel__background-color: @color-gray-light0;
+@border-color__base: @color-gray80;
+
+//
+//  Typography
+//  ---------------------------------------------
+
+//  Fonts
+@font-family-name__base: 'Open Sans';
+@font-family__base: @font-family-name__base, @font-family__sans-serif;
+
+//  Colors nesting
+@page__background-color: @color-white;
+
+//
+//  Icons
+//  ---------------------------------------------
+
+@icon-success: '\e60e';
+@icon-error: '\e61f';
+@icon-edit: '\e601';
+@icon-print: '\e624';
+@icon-star-empty: '\e625';
+@icon-download: '\e626';
+@icon-private: '\e629';
+@icon-present: '\e62a';
+@icon-gift-registry: '\e62b';
+
+@icon-calendar__font-size: 23px;
+
+//
+//  Sidebar
+//  ---------------------------------------------
+
+@sidebar__background-color: @color-white-smoke; // Used in cart sidebar, Checkout sidebar, Tier Prices, My account navigation, Rating block background
+
+//
+//  Sidebar blocks
+//  ---------------------------------------------
+
+@block-items__counter__color: @color-gray43;
