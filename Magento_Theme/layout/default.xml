@@ -6,43 +6,25 @@
  */
 -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
-    <body>
-        <referenceContainer name="header.panel">
-            <block class="Magento\Framework\View\Element\Html\Links" name="header.links">
-                <arguments>
-                    <argument name="css_class" xsi:type="string">header links</argument>
-                </arguments>
-            </block>
-        </referenceContainer>
-        <referenceBlock name="logo">
-            <arguments>
-                <argument name="logo_width" xsi:type="number">246.27</argument>
-                <argument name="logo_height" xsi:type="number">55</argument>
-            </arguments>
-        </referenceBlock>
-        <referenceContainer name="footer">
-            <block class="Magento\Store\Block\Switcher" name="store_switcher" as="store_switcher" after="footer_links" template="Magento_Store::switch/stores.phtml"/>
-        </referenceContainer>
-        <referenceBlock name="report.bugs" remove="true"/>
-        <move element="copyright" destination="before.body.end"/>
-        <referenceBlock name="link-preload">
-    <arguments>
-
-        <argument name="fonts" xsi:type="array">
-            <item name="opensans-600" xsi:type="string">fonts/opensans/semibold/opensans-600.woff2</item>
-            <item name="Luma-Icons" xsi:type="string">fonts/Luma-Icons.woff2</item>
-            <item name="opensans-700" xsi:type="string">fonts/opensans/bold/opensans-700.woff2</item>
-            <item name="opensans-400" xsi:type="string">fonts/opensans/regular/opensans-400.woff2</item>
-            <item name="opensans-300" xsi:type="string">fonts/opensans/light/opensans-300.woff2</item>
-        </argument>
-        <argument name="scripts" xsi:type="array">
-            <item name="jquery" xsi:type="string">jquery.js</item>
-        </argument>
-
-        <argument name="images" xsi:type="array">
-            <item name="my-image-name" xsi:type="string">images/loader-1.gif</item>
-        </argument>
-    </arguments>
-</referenceBlock>
-    </body>
+  <body>
+    <referenceContainer name="header.panel">
+      <block class="Magento\Framework\View\Element\Html\Links" name="header.links">
+        <arguments>
+          <argument name="css_class" xsi:type="string">header links</argument>
+        </arguments>
+      </block>
+    </referenceContainer>
+    <referenceBlock name="logo">
+      <arguments>
+        <argument name="logo_width" xsi:type="number">246.27</argument>
+        <argument name="logo_height" xsi:type="number">55</argument>
+      </arguments>
+    </referenceBlock>
+    <referenceContainer name="footer">
+      <block class="Magento\Store\Block\Switcher" name="store_switcher" as="store_switcher" after="footer_links" template="Magento_Store::switch/stores.phtml"/>
+    </referenceContainer>
+    <referenceBlock name="report.bugs" remove="true"/>
+    <referenceBlock name="page.main.title" remove="true"/>
+    <move element="copyright" destination="before.body.end"/>
+  </body>
 </page>

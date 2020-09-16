@@ -1,5 +1,5 @@
 // /**
-//  * Copyright © Àngel Díaz, Inc. All rights reserved.
+//  * Copyright © Magento, Inc. All rights reserved.
 //  * See COPYING.txt for license details.
 //  */
 
@@ -58,8 +58,10 @@
 //  Navigation
 //  ---------------------------------------------
 
-@navigation-desktop__background: #f60;
-@navigation-level0-item__active__color: @primary__color;
+@navigation__background: #f60;
+@navigation-level0-item__active__color: @color-white;
+@navigation-level0-item__color: @color-white;
+@navigation-desktop-level0-item__color: @color-white;
 @submenu-item__active__color: @navigation-level0-item__active__color;
 
 //  Desktop navigation
@@ -106,10 +108,11 @@
 //
 //  Buttons
 //  ---------------------------------------------
-@button__color: @color-gray20;
+
 @button__font-weight: @font-weight__semibold;
 
 //  Default = secondary button
+//@button__background: @color-gray-darken0;
 @button__background: @color-optimus-orange;
 @button__border: 1px solid @border-color__base;
 @button__hover__color: @button__color;
@@ -117,7 +120,7 @@
 @button__active__background: @color-gray-darken1;
 
 //  Primary button
-@button-primary__background: @color-orange-red1;
+@button-primary__background: @color-optimus-orange;
 @button-primary__hover__color: @color-white;
 @button-primary__active__background: @link__hover__color;
 @button-primary__active__border: 1px solid @link__hover__color;
@@ -294,3 +297,4 @@
 //  ---------------------------------------------
 
 @copyright__background-color: #3e3735;
+//@footer__background-color: #5a4f4c;

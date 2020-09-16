@@ -1,5 +1,5 @@
 // /**
-//  * Copyright © Àngel Díaz, Inc. All rights reserved.
+//  * Copyright © Magento, Inc. All rights reserved.
 //  * See COPYING.txt for license details.
 //  */
 
@@ -267,6 +267,10 @@
                     .lib-icon-font-symbol(
                     @_icon-font-content: @icon-trash
                     );
+                    
+                    &:hover {
+                        .lib-css(text-decoration, @link__text-decoration);
+                    }
                 }
             }
 

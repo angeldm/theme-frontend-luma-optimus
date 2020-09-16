@@ -1,5 +1,5 @@
 // /**
-//  * Copyright © Àngel Díaz, Inc. All rights reserved.
+//  * Copyright © Magento, Inc. All rights reserved.
 //  * See COPYING.txt for license details.
 //  */
 
@@ -48,6 +48,7 @@
         input {
             margin-right: 35px;
             padding: 0 0 0 35px; // Reset some default Safari padding values.
+	    font-size: 13px;
         }
 
         .title {
@@ -81,6 +82,13 @@
     .block.newsletter {
         max-width: 44%;
         width: max-content;
+        
+        .form.subscribe {
+            > .field,
+            > .actions {
+                float: left;
+            }
+        }
     }
 }
 
