@@ -7,16 +7,16 @@
 -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
   <body>
-	<referenceContainer name="footer">
+	<!-- <referenceContainer name="footer">
     <block name="footer.store.socials"
         as="footer-store-socials"
         template="Siteation_StoreInfoExtra::luma/socials.phtml">
         <arguments>
-            <argument name="viewModelStoreInfo" 
+            <argument name="viewModelStoreInfo"
                 xsi:type="object">Siteation\StoreInfoExtra\ViewModel\StoreInfoExtra</argument>
         </arguments>
     </block>
-</referenceContainer>
+</referenceContainer> -->
 
     <referenceContainer name="header.panel">
       <block class="Magento\Framework\View\Element\Html\Links" name="header.links">

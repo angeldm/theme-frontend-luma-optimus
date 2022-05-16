@@ -13,6 +13,6 @@
         <font src="fonts/opensans/semibold/opensans-600.woff2"/>
         <font src="fonts/opensans/bold/opensans-700.woff2"/>
 	<font src="fonts/Luma-Icons.woff2"/>
-	<script src="http://192.168.20.2:35729/livereload.js" src_type="url"/>
+	<!-- <script src="http://192.168.20.2:35729/livereload.js" src_type="url"/> -->
     </head>
 </page>
